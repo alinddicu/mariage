@@ -12,6 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebPage", "WebPage", "{5B39
 		WebPage\style.css = WebPage\style.css
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{222455C7-8BCB-496F-B129-3ED60AD1969D}"
+	ProjectSection(SolutionItems) = preProject
+		WebPage\fonts\The Constellation of Heracles.ttf = WebPage\fonts\The Constellation of Heracles.ttf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{42CC9E3C-6995-4713-9347-4FE6FC23A6C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +32,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{222455C7-8BCB-496F-B129-3ED60AD1969D} = {5B395D9A-77C8-474F-B768-6C9E1F6B42C5}
+		{42CC9E3C-6995-4713-9347-4FE6FC23A6C4} = {5B395D9A-77C8-474F-B768-6C9E1F6B42C5}
 	EndGlobalSection
 EndGlobal
