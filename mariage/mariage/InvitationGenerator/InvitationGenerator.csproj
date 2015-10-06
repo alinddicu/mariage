@@ -32,6 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EO.Base">
+      <HintPath>..\packages\EO.Pdf.15.2.78.2\lib\EO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.Pdf">
+      <HintPath>..\packages\EO.Pdf.15.2.78.2\lib\EO.Pdf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
