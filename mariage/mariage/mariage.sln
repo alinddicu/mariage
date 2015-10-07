@@ -12,10 +12,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebPage", "WebPage", "{5B39
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{222455C7-8BCB-496F-B129-3ED60AD1969D}"
 	ProjectSection(SolutionItems) = preProject
-		WebPage\fonts\The Constellation of Heracles.ttf = WebPage\fonts\The Constellation of Heracles.ttf
+		WebPage\fonts\AlexBrush-Regular.ttf = WebPage\fonts\AlexBrush-Regular.ttf
+		WebPage\fonts\KR ReadMe.txt = WebPage\fonts\KR ReadMe.txt
+		WebPage\fonts\KR Wedding.ttf = WebPage\fonts\KR Wedding.ttf
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{42CC9E3C-6995-4713-9347-4FE6FC23A6C4}"
+	ProjectSection(SolutionItems) = preProject
+		WebPage\img\288x238-images-cheznous-plan-situation.jpg = WebPage\img\288x238-images-cheznous-plan-situation.jpg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution

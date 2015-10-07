@@ -1,25 +1,97 @@
 @font-face {
-    font-family: "The Constellation of Heracles";
+    font-family: "AlexBrush-Regular";
     font-style: normal;
-    src: url('fonts/The Constellation of Heracles.ttf');
+    src: url('fonts/AlexBrush-Regular.ttf');
 }
 
+
+@font-face {
+    font-family: "KR Wedding";
+    font-style: normal;
+    src: url('fonts/KR Wedding.ttf');
+}
+
+/*
+    gris - color :  rgb(212, 212, 212);
+    rose - color :  rgb(242, 222, 222);
+    mauve - color :  rgb(137, 125, 244);
+    vert - color :  rgb(112, 191, 65);
+    orange - color :  rgb(243, 144, 25);
+    bleu - color :  rgb(81, 167, 249);
+    jaune - color :  rgb(245, 211, 40);
+
+*/
 body {
-    font-family: The Constellation of Heracles;
-    font-size: 32px;
-    color: rgb(137, 125, 244);
+    font-family: AlexBrush-Regular;
     margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.7em;
+    padding: 10px;
+}
+
+.wedding-icon {
+    font-size: 10em;
+    text-align: center;
+    font-family: "KR Wedding";
 }
 
 .main {
-    margin-top: 50px;
-    background-color: rgb(242, 222, 222);
+    margin-top: 20px;
     width: 80%;
     margin-left: 10%;
-    text-align: center;
+    border: 5px solid rgb(212, 212, 212);
     border-radius: 15px;
+    padding: 10px;
+}
+
+.section-title {
+    background-color: rgb(242, 222, 222);
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text-bleu {
+    color: rgb(81, 167, 249);
+}
+
+.border-bleu {
+    border: 5px solid rgb(81, 167, 249);
+}
+
+.text-orange {
+    color: rgb(243, 144, 25);
+}
+
+.border-orange {
+    border: 5px solid rgb(243, 144, 25);
+}
+
+.text-vert {
+    color: rgb(112, 191, 65);
+}
+
+.border-vert {
+    border: 5px solid rgb(112, 191, 65);
+}
+
+.text-mauve {
+    color: rgb(137, 125, 244);
+}
+
+.border-mauve {
+    border: 5px solid rgb(137, 125, 244);
 }
