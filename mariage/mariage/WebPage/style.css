@@ -11,16 +11,6 @@
     src: url('fonts/KR Wedding.ttf');
 }
 
-/*
-    gris - color :  rgb(212, 212, 212);
-    rose - color :  rgb(242, 222, 222);
-    mauve - color :  rgb(137, 125, 244);
-    vert - color :  rgb(112, 191, 65);
-    orange - color :  rgb(243, 144, 25);
-    bleu - color :  rgb(81, 167, 249);
-    jaune - color :  rgb(245, 211, 40);
-
-*/
 body {
     font-family: AlexBrush-Regular;
     margin: 0;
@@ -94,4 +84,9 @@ p {
 
 .border-mauve {
     border: 5px solid rgb(137, 125, 244);
+}
+
+img.size {
+    width: 275px;
+    height: 183px;
 }

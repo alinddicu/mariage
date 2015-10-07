@@ -19,7 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{222455C7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{42CC9E3C-6995-4713-9347-4FE6FC23A6C4}"
 	ProjectSection(SolutionItems) = preProject
-		WebPage\img\288x238-images-cheznous-plan-situation.jpg = WebPage\img\288x238-images-cheznous-plan-situation.jpg
+		WebPage\img\eglise-Caluire-et-Cuire_Saint_Come.jpg = WebPage\img\eglise-Caluire-et-Cuire_Saint_Come.jpg
+		WebPage\img\Mairie-Villeurbanne.jpg = WebPage\img\Mairie-Villeurbanne.jpg
+		WebPage\img\restaurant-cheznous-plan-situation.jpg = WebPage\img\restaurant-cheznous-plan-situation.jpg
+		WebPage\img\restaurant-cheznous.jpg = WebPage\img\restaurant-cheznous.jpg
 	EndProjectSection
 EndProject
 Global
