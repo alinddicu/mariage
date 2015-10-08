@@ -100,3 +100,8 @@ img.size {
 p.gps {
     font-family: AFL Font Pespaye Nonmetric;
 }
+
+.google-map {
+    height: 300px;
+    margin: 10px;
+}
