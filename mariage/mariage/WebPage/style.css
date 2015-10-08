@@ -11,6 +11,12 @@
     src: url('fonts/KR Wedding.ttf');
 }
 
+@font-face {
+    font-family: "AFL Font Pespaye Nonmetric";
+    font-style: normal;
+    src: url('fonts/aflfont.ttf');
+}
+
 body {
     font-family: AlexBrush-Regular;
     margin: 0;
@@ -89,4 +95,8 @@ p {
 img.size {
     width: 275px;
     height: 183px;
+}
+
+p.gps {
+    font-family: AFL Font Pespaye Nonmetric;
 }
