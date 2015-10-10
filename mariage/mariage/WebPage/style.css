@@ -27,9 +27,6 @@ h1 {
     text-align: center;
     padding: 0;
     margin: 0;
-}
-
-h1 {
     font-size: 2.7em;
     padding: 10px;
 }
@@ -93,6 +90,10 @@ p {
     border: 5px solid rgb(137, 125, 244);
 }
 
+.border-gris {
+    border: 5px solid rgb(212, 212, 212);
+}
+
 img.size {
     width: 275px;
     height: 183px;
@@ -105,4 +106,9 @@ p.gps {
 .google-map {
     height: 400px;
     margin: 10px;
+    border-radius: 15px;
+}
+
+img.border-radius {
+    border-radius: 15px;
 }
