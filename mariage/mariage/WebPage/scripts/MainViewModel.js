@@ -7,7 +7,8 @@ alindicu.MainViewModel = function () {
     self.heureEglise = '13h (*)';
     self.heureRestaurant = '18h (*)';
     
-    var frMariageData =  new alindicu.MariageViewModel(
+    var frMariageData = new alindicu.MariageViewModel(
+        ' et ',
         '2 Juillet 2016',
         'à Lyon',
         'A la mairie',
@@ -32,7 +33,8 @@ alindicu.MainViewModel = function () {
         'Parking gratuit : devant le restaurant',
         '(*)Les heures sont approximatives et seront mises à jour prochainement');
 
-    var roMariageData = new alindicu.MariageViewModel(
+        var roMariageData = new alindicu.MariageViewModel(
+        ' si ',
         '2 Iulie 2016',
         'la Lyon',
         'La primarie',

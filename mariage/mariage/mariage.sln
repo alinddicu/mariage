@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{222455C7
 	ProjectSection(SolutionItems) = preProject
 		WebPage\fonts\aflfont.ttf = WebPage\fonts\aflfont.ttf
 		WebPage\fonts\AlexBrush-Regular.ttf = WebPage\fonts\AlexBrush-Regular.ttf
-		WebPage\fonts\KR ReadMe.txt = WebPage\fonts\KR ReadMe.txt
-		WebPage\fonts\KR Wedding.ttf = WebPage\fonts\KR Wedding.ttf
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{42CC9E3C-6995-4713-9347-4FE6FC23A6C4}"

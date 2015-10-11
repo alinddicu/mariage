@@ -8,14 +8,13 @@
 <body>
     <div class="main">
         <div class="lang-choice">
-            <a href="#" data-bind="click : function(){ switchLang('ro');}"><img class="drapeau-lang" src="img/drapeau-ro.png" /></a>
-            <a href="#" data-bind="click : function(){ switchLang('fr');}"><img class="drapeau-lang" src="img/drapeau-fr.png" /></a>
+            <a href="#" data-bind="click : function(){ switchLang('ro');}"><img class="drapeau-lang left" src="img/drapeau-ro.png" /></a>
+            <a href="#" data-bind="click : function(){ switchLang('fr');}"><img class="drapeau-lang right" src="img/drapeau-fr.png" /></a>
         </div>
         <div class="clear-float"></div>
         <div class="section-title border-orange">
-            <h1 class="text-orange">Stefana et Alin</h1>
-            <!--<div class="wedding-icon">B</div>-->
-            <h1><img src="img/homme-femme.png" style="width: 500px; height : 316.5px" /></h1>
+            <h1 class="text-orange"><span>Stefana</span><span data-bind="text : mariage().et"></span><span>Alin</span></h1>
+            <h1><img class="homme-femme" src="img/homme-femme.png" /></h1>
             <h1 class="text-orange" data-bind="text : mariage().date"></h1>
             <h1 class="text-orange" data-bind="text : mariage().lieu"></h1>
         </div>

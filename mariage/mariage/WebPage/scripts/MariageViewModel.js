@@ -1,6 +1,7 @@
 var alindicu = window.alindicu = window.alindicu || {};
 
 alindicu.MariageViewModel = function (
+    et,
     date,
     lieu,
     aLaMairie,
@@ -27,6 +28,7 @@ alindicu.MariageViewModel = function (
 
     var self = this;
 
+    self.et = et;
     self.date = date;
     self.lieu = lieu;
     self.aLaMairie = aLaMairie;
