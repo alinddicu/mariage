@@ -6,7 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebPage", "WebPage", "{5B395D9A-77C8-474F-B768-6C9E1F6B42C5}"
 	ProjectSection(SolutionItems) = preProject
 		WebPage\index.html = WebPage\index.html
-		WebPage\scripts.js = WebPage\scripts.js
 		WebPage\style.css = WebPage\style.css
 	EndProjectSection
 EndProject
@@ -27,6 +26,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{42CC9E3C-699
 		WebPage\img\restaurant-cheznous.jpg = WebPage\img\restaurant-cheznous.jpg
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{77E6D61D-1F97-4F5D-8E16-59E208F79C04}"
+	ProjectSection(SolutionItems) = preProject
+		WebPage\scripts\knockoutjs-min.js = WebPage\scripts\knockoutjs-min.js
+		WebPage\scripts\main.js = WebPage\scripts\main.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +39,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{222455C7-8BCB-496F-B129-3ED60AD1969D} = {5B395D9A-77C8-474F-B768-6C9E1F6B42C5}
 		{42CC9E3C-6995-4713-9347-4FE6FC23A6C4} = {5B395D9A-77C8-474F-B768-6C9E1F6B42C5}
+		{77E6D61D-1F97-4F5D-8E16-59E208F79C04} = {5B395D9A-77C8-474F-B768-6C9E1F6B42C5}
 	EndGlobalSection
 EndGlobal
