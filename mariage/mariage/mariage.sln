@@ -30,6 +30,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{42CC9E3C-699
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{77E6D61D-1F97-4F5D-8E16-59E208F79C04}"
 	ProjectSection(SolutionItems) = preProject
+		WebPage\scripts\GoogleMap.js = WebPage\scripts\GoogleMap.js
 		WebPage\scripts\knockoutjs-min.js = WebPage\scripts\knockoutjs-min.js
 		WebPage\scripts\main.js = WebPage\scripts\main.js
 		WebPage\scripts\MainViewModel.js = WebPage\scripts\MainViewModel.js
