@@ -1,36 +1,36 @@
-var alindicu = window.alindicu = window.alindicu || {};
+ï»¿var alindicu = window.alindicu = window.alindicu || {};
 
 alindicu.MainViewModel = function () {
     var self = this;
 
     self.heureMairie = '10h (*)';
-    self.heureEglise = '13 (*)';
-    self.heureRestaurant = '18 (*)';
+    self.heureEglise = '13h (*)';
+    self.heureRestaurant = '18h (*)';
     
     var frMariageData =  new alindicu.MariageViewModel(
         '2 Juillet 2016',
-        'à Lyon',
+        'Ã  Lyon',
         'A la mairie',
-        'La cérémonie se tiendra ',
-        ' à la',
+        'La cÃ©rÃ©monie se tiendra ',
+        ' Ã  la',
         'Mairie de Villeurbanne',
         '3, Place du Dr Lazare Goujon, 69100 Villeurbanne',
         'Parkings payants',
         '17 rue Michel Servet (air libre)',
         '38 bis rue Michel Servet (couvert)',
-        'A l\'église',
-        'La cérémonie se tiendra ',
-        ' à',
-        'l\'Eglise Saint Côme Saint Damien',
+        'A l\'Ã©glise',
+        'La cÃ©rÃ©monie se tiendra ',
+        ' Ã ',
+        'l\'Eglise Saint CÃ´me Saint Damien',
         '53, chemin de Fond Rose, Caluire et Cuire, 69300',
-        'Parking gratuit : dans la cour de l\'église',
+        'Parking gratuit : dans la cour de l\'Ã©glise',
         'Au restaurant',
-        'Nous allons faire la fête ',
+        'Nous allons faire la fÃªte ',
         ' au',
         'Restaurant  "Chez nous"',
-        'Route  Départementale  D61  (01)  Ain, Sainte Croix, 01120',
+        'Route  DÃ©partementale  D61  (01)  Ain, Sainte Croix, 01120',
         'Parking gratuit : devant le restaurant',
-        '(*)Les heures sont approximatives et seront mises à jour prochainement');
+        '(*)Les heures sont approximatives et seront mises Ã  jour prochainement');
 
     var roMariageData = new alindicu.MariageViewModel(
         '2 Iulie 2016',
@@ -46,11 +46,11 @@ alindicu.MainViewModel = function () {
         'La biserica',
         'Ceremonia se va tine la ora ',
         ' la',
-        'Biserica Saint Côme Saint Damien',
+        'Biserica Saint CÃ´me Saint Damien',
         '53, chemin de Fond Rose, Caluire et Cuire, 69300',
         'Parcare gratuita : in curtea bisericii',
         'La restaurant',
-        'Petrecerea va fi ',
+        'Petrecerea va incepe la ora ',
         ' la',
         'Restaurantul  "Chez nous"',
         'Judeteana  D61  (01)  Ain, Sainte Croix, 01120',
@@ -67,7 +67,7 @@ alindicu.MainViewModel = function () {
         if (lang == 'ro') {
             self.mariage(roMariageData);
         }
-    }
+    };
 
     new alindicu.GoogleMap('map-mairie', 45.766450, 4.879592);
     new alindicu.GoogleMap('map-eglise', 45.791826, 4.824995);
