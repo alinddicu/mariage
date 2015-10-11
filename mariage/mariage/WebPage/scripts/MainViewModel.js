@@ -54,7 +54,7 @@ alindicu.MainViewModel = function () {
         ' la',
         'Restaurantul  "Chez nous"',
         'Judeteana  D61  (01)  Ain, Sainte Croix, 01120',
-        'Parcare gratuita : devant le restaurant',
+        'Parcare gratuita : in fata restaurantului',
         '(*) Orele sunt aproximative si vor fi fixate in curand');
 
     self.mariage = ko.observable(roMariageData);
