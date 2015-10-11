@@ -10,7 +10,7 @@
             <div class="section-title border-orange">
                 <h1 class="text-orange">Stefana et Alin</h1>
                 <div class="wedding-icon">B</div>
-                <h1 class="text-orange">le 2 Juillet 2016</h1>
+                <h1 class="text-orange" data-bind="text : mariage().date"></h1>
                 <h1 class="text-orange">à Lyon</h1>
             </div>
             <div class="section-title border-bleu">
@@ -49,6 +49,9 @@
         </div>
     </body>
 </html>
+
+<script src="scripts/MainViewModel.js"></script>
+<script src="scripts/MariageViewModel.js"></script>
 <script src="scripts/knockoutjs-min.js"></script>
 <script src="scripts/main.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js"></script>

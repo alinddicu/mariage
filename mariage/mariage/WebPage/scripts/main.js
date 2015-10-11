@@ -14,3 +14,5 @@ function initializeGoogleMaps() {
     new alindicu.GoogleMap('map-mairie', 45.766450, 4.879592);
     new alindicu.GoogleMap('map-eglise', 45.791826, 4.824995);
 }
+
+ko.applyBindings(new alindicu.MainViewModel());
