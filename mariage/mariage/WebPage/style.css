@@ -114,3 +114,18 @@ p.gps {
 img.border-radius {
     border-radius: 15px;
 }
+
+.lang-choice {
+    float: right;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.drapeau-lang {
+    width: 25px;
+    height: 16.66px;
+    padding: 0;
+    margin: 0;
+}
