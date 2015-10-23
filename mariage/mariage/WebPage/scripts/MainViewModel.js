@@ -3,7 +3,7 @@
 alindicu.MainViewModel = function () {
     var self = this;
 
-    self.heureMairie = '10h (*)';
+    self.heureMairie = '11';
     self.heureEglise = '13h (*)';
     self.heureRestaurant = '18h (*)';
     
@@ -12,20 +12,23 @@ alindicu.MainViewModel = function () {
         '2 Juillet 2016',
         'à Lyon',
         'A la mairie',
-        'La cérémonie se tiendra ',
-        ' à la',
+        '25 Juin 2016',
+        'La cérémonie se tiendra à ',
+        ' heures à la',
         'Mairie de Villeurbanne',
         '3, Place du Dr Lazare Goujon, 69100 Villeurbanne',
         'Parkings payants',
         '17 rue Michel Servet (air libre)',
         '38 bis rue Michel Servet (couvert)',
         'A l\'église',
+        '2 Juillet 2016',
         'La cérémonie se tiendra ',
         ' à',
         'l\'Eglise Saint Côme Saint Damien',
         '53, chemin de Fond Rose, Caluire et Cuire, 69300',
         'Parking gratuit : dans la cour de l\'église',
         'Au restaurant',
+        '2 Juillet 2016',
         'Nous allons faire la fête ',
         ' au',
         'Restaurant  "Chez nous"',
@@ -38,6 +41,7 @@ alindicu.MainViewModel = function () {
         '2 Iulie 2016',
         'la Lyon',
         'La primarie',
+        '25 Iunie 2016',
         'Ceremonia se va tine la ora ',
         ' la',
         'Primaria Villeurbanne',
@@ -46,12 +50,14 @@ alindicu.MainViewModel = function () {
         '17 rue Michel Servet (aer liber)',
         '38 bis rue Michel Servet (acoperit)',
         'La biserica',
+        '2 Iulie 2016',
         'Ceremonia se va tine la ora ',
         ' la',
         'Biserica Saint Côme Saint Damien',
         '53, chemin de Fond Rose, Caluire et Cuire, 69300',
         'Parcare gratuita : in curtea bisericii',
         'La restaurant',
+        '2 Iulie 2016',
         'Petrecerea va incepe la ora ',
         ' la',
         'Restaurantul  "Chez nous"',

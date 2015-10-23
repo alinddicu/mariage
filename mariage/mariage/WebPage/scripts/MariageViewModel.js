@@ -5,6 +5,7 @@ alindicu.MariageViewModel = function (
     date,
     lieu,
     aLaMairie,
+    dateMairie,
     ceremonieALaMairie,
     ceremonieMairieALaMairie,
     mairieLabel,
@@ -13,12 +14,14 @@ alindicu.MariageViewModel = function (
     mairieParking1,
     mairieParking2,
     aLEglise,
+    dateEglise,
     ceremonieALEglise,
     ceremonieALEgliseALEglise,
     egliseLabel,
     adresseEglise,
     parkingEglise,
     auRestaurant,
+    dateRestaurant,
     feteRestaurant,
     feteRestaurantAu,
     restaurantLabel,
@@ -32,6 +35,7 @@ alindicu.MariageViewModel = function (
     self.date = date;
     self.lieu = lieu;
     self.aLaMairie = aLaMairie;
+    self.dateMairie = dateMairie;
     self.ceremonieALaMairie = ceremonieALaMairie;
     self.ceremonieMairieALaMairie = ceremonieMairieALaMairie;
     self.mairieLabel = mairieLabel;
@@ -40,12 +44,14 @@ alindicu.MariageViewModel = function (
     self.mairieParking1 = mairieParking1;
     self.mairieParking2 = mairieParking2;
     self.aLEglise = aLEglise;
+    self.dateEglise = dateEglise;
     self.ceremonieALEglise = ceremonieALEglise;
     self.ceremonieALEgliseALEglise = ceremonieALEgliseALEglise;
     self.egliseLabel = egliseLabel;
     self.adresseEglise = adresseEglise;
     self.parkingEglise = parkingEglise;
     self.auRestaurant = auRestaurant;
+    self.dateRestaurant = dateRestaurant;
     self.feteRestaurant = feteRestaurant;
     self.feteRestaurantAu = feteRestaurantAu;
     self.restaurantLabel = restaurantLabel;
