@@ -3,7 +3,7 @@
 alindicu.MainViewModel = function () {
     var self = this;
 
-    self.heureMairie = '11';
+    self.heureMairie = '10h50';
     self.heureEglise = '13h (*)';
     self.heureRestaurant = '18h (*)';
     
@@ -14,7 +14,7 @@ alindicu.MainViewModel = function () {
         'A la mairie',
         '25 Juin 2016',
         'La cérémonie se tiendra à ',
-        ' heures à la',
+        ' à la',
         'Mairie de Villeurbanne',
         '3, Place du Dr Lazare Goujon, 69100 Villeurbanne',
         'Parkings payants',
@@ -42,7 +42,7 @@ alindicu.MainViewModel = function () {
         'la Lyon',
         'La primarie',
         '25 Iunie 2016',
-        'Ceremonia se va tine la ora ',
+        'Ceremonia se va tine la ',
         ' la',
         'Primaria Villeurbanne',
         '3, Place du Dr Lazare Goujon, 69100 Villeurbanne',
