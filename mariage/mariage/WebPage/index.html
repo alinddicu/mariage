@@ -12,13 +12,13 @@
             <a href="#" data-bind="click : function(){ switchLang('fr');}"><img class="drapeau-lang right" src="img/drapeau-fr.png" /></a>
         </div>
         <div class="clear-float"></div>
-        <div class="section-title border-orange">
+        <div class="section border-orange">
             <h1 class="text-orange"><span>Stefana</span><span data-bind="text : mariage().et"></span><span>Alin</span></h1>
             <h1><img class="homme-femme" src="img/homme-femme.png" /></h1>
             <h1 class="text-orange" data-bind="text : mariage().date"></h1>
             <h1 class="text-orange" data-bind="text : mariage().lieu"></h1>
         </div>
-        <div class="section-title border-bleu">
+        <div class="section border-bleu">
             <h1 class="text-bleu" data-bind="text : mariage().aLaMairie"></h1>
             <h1 class="text-bleu" data-bind="text : mariage().dateMairie"></h1>
             <p><span data-bind="text : mariage().ceremonieALaMairie"></span><span data-bind="text : heureMairie"></span><span data-bind="text : mariage().ceremonieMairieALaMairie"></span></p>
@@ -29,7 +29,7 @@
             <p class="gps">GPS : Nord 45° 45' 59"   Est 4° 52' 46"</p>
             <p><span data-bind="text : mariage().mairieParkingLabel"></span><span> : </span><span data-bind="text : mariage().mairieParking1"></span><span>, </span><span data-bind="text : mariage().mairieParking2"></span></p>
         </div>
-        <div class="section-title border-vert">
+        <div class="section border-vert">
             <h1 class="text-vert" data-bind="text : mariage().aLEglise"></h1>
             <h1 class="text-vert" data-bind="text : mariage().dateEglise"></h1>
             <p><span data-bind="text : mariage().ceremonieALEglise"></span><span data-bind="text : heureEglise"></span><span data-bind="text : mariage().ceremonieALEgliseALEglise"></span></p>
@@ -40,7 +40,7 @@
             <p class="gps">GPS : Nord 45° 47' 30"   Est 4° 49' 29"</p>
             <p data-bind="text : mariage().parkingEglise"></p>
         </div>
-        <div class="section-title border-mauve">
+        <div class="section border-mauve">
             <h1 data-bind="text : mariage().auRestaurant" class="text-mauve"></h1>
             <h1 class="text-mauve" data-bind="text : mariage().dateRestaurant"></h1>
             <p><span data-bind="text : mariage().feteRestaurant"></span><span data-bind="text : heureRestaurant"></span><span data-bind="text : mariage().feteRestaurantAu"></span></p>
@@ -51,11 +51,11 @@
             <p class="gps">GPS : Nord 45° 53' 41.23"    Est 5° 3' 12.67"</p>
             <p data-bind="text : mariage().parkingRestaurant"></p>
         </div>
-        <div class="section-title border-gris">
+        <div class="section border-gris">
             <p data-bind="text : mariage().disclaimerMajHeures"></p>
         </div>
-        <div class="section-title border-gris" data-bind="visible : lang() == 'ro'">
-            <p class="info">Turism</p>
+        <div class="section border-vert" data-bind="visible : lang() == 'ro'">
+            <h1 class="info text-vert">Turism</h1>
             <p class="info">Profitati de ocazia nuntii noastre pentru a descoperi bogatiile si imprejurimile Lyon-ului.</p>
             <p class="info"><object id="video-lyon" type="text/html" data="http://www.youtube.com/embed/cj0DAzNJJYM"></object></p>
             <p class="info">Pentru a va pregati vizita va propunem sa vizitati site-ul <a href="http://www.lyon-france.com/Decouvrir-Lyon">oficiului de turism</a></p>
@@ -68,26 +68,26 @@
                 </ul>
             </p>
         </div>
-        <div class="section-title border-gris" data-bind="visible : lang() == 'ro'">
-            <p class="info">Ruta Romania - Lyon</p>
+        <div class="section border-mauve" data-bind="visible : lang() == 'ro'">
+            <h1 class="info text-mauve">Ruta Romania - Lyon</h1>
             <ul>
                 <li>cu masina : pentru cei mai curajosi, cu disponibilitati mai ample si doritori de a descoperi si alte locuri in drum spre Lyon</li>
                 <li>cu avionul : pentru cei mai nerabdatori de a ajunge pe meleagurile frantuzesti</li>
             </ul>
             <p class="info">Sugestii</p>
             <ul>
-                <li>Zbor direct: Bucuresti – Lyon : <a href="https://www.blueairweb.com/">BlueAir</a></li>
-                <li>Zbor via Geneva : Cluj-Napoca/Bucuresti - Gèneve : <a href="https://wizzair.com/fr-FR/FlightSearch">WizzAir</a> si <a href="http://www.tarom.ro/en/">Tarom</a></li>
-                <li>Geneve este situata la mai putin de doua ore de Lyon. <a href="http://www.sncf.com/">Trenul</a> sau <a href="http://www.eurolines.fr/fr/">autobuzul</a> pleaca direct din aeroportul Genevei spre Lyon.</li>
+                <li>Zbor direct: Bucuresti – Lyon : <a href="https://www.blueairweb.com/" target="_new">BlueAir</a></li>
+                <li>Zbor via Geneva : Cluj-Napoca/Bucuresti - Gèneve : <a href="https://wizzair.com/fr-FR/FlightSearch" target="_new">WizzAir</a> si <a href="http://www.tarom.ro/en/" target="_new">Tarom</a></li>
+                <li>Geneve este situata la mai putin de doua ore de Lyon. <a href="http://www.sncf.com/" target="_new">Trenul</a> sau <a href="http://www.eurolines.fr/fr/" target="_new">autobuzul</a> pleaca direct din aeroportul Genevei spre Lyon.</li>
             </ul>
         </div>
-        <div class="section-title border-gris" data-bind="visible : lang() == 'ro'">
-            <p class="info">Cazare Lyon</p>
+        <div class="section border-bleu" data-bind="visible : lang() == 'ro'">
+            <h1 class="info text-bleu">Cazare Lyon</h1>
             <p class="info">Lyon-ul ofera foarte multe posibilitati de cazare. Noi va sugeram hotelurile din apropierea domiciliului nostru</p>
             <ul>
-                <li>la 200 m → <a href="http://www.accorhotels.com/fr/hotel-5087-ibis-budget-lyon-villeurbanne/index.shtml">Hôtel Ibis Budget</a> Croix-Luizet/Villeurbanne : 3 Rue du 8 Mai 1945, 69100 Villeurbanne</li>
-                <li>la 1,5 km → <a href="http://www.accorhotels.com/fr/hotel-9012-ibis-styles-lyon-villeurbanne/index.shtml">Hôtel Ibis Style</a> Lyon/Villeurbanne : 130 Boulevard du 11 Novembre 1918, 69100 Villeurbanne</li>
-                <li>sau in afara Lyon-ului exact in cadrul <a href="http://www.hotel-restaurant-chez-nous.com/">Restaurantului Chez Nous</a> unde vom petrece : (la 25 km de Lyon)</li>
+                <li>la 200 m → <a href="http://www.accorhotels.com/fr/hotel-5087-ibis-budget-lyon-villeurbanne/index.shtml" target="_new">Hôtel Ibis Budget</a> Croix-Luizet/Villeurbanne : 3 Rue du 8 Mai 1945, 69100 Villeurbanne</li>
+                <li>la 1,5 km → <a href="http://www.accorhotels.com/fr/hotel-9012-ibis-styles-lyon-villeurbanne/index.shtml" target="_new">Hôtel Ibis Style</a> Lyon/Villeurbanne : 130 Boulevard du 11 Novembre 1918, 69100 Villeurbanne</li>
+                <li>sau in afara Lyon-ului exact in cadrul <a href="http://www.hotel-restaurant-chez-nous.com/" target="_new">Restaurantului Chez Nous</a> unde vom petrece : (la 25 km de Lyon)</li>
             </ul>
         </div>
     </div>
