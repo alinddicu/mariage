@@ -48,15 +48,24 @@ p {
     font-weight: bold;
 }
 
-ul.turism {
-    padding-left: 30%;
-}
-
 ul li {
     text-align: justify;
     font-size: 1em;
     font-weight: bold;
     font-family: AFL Font Pespaye Nonmetric;
+}
+
+ul.tourisme-img {
+    text-align: center;
+    list-style-type: none;
+}
+
+ul.tourisme-img li {
+    display:inline-block;   
+}
+
+img.tourisme {
+    width: 500px;
 }
 
 p.info {

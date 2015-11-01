@@ -22,9 +22,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{42CC9E3C-699
 		WebPage\img\drapeau-ro.png = WebPage\img\drapeau-ro.png
 		WebPage\img\eglise-Caluire-et-Cuire_Saint_Come.jpg = WebPage\img\eglise-Caluire-et-Cuire_Saint_Come.jpg
 		WebPage\img\homme-femme.png = WebPage\img\homme-femme.png
+		WebPage\img\Jardins-du-parc-de-la-Tete-d-Or.jpg = WebPage\img\Jardins-du-parc-de-la-Tete-d-Or.jpg
+		WebPage\img\lyon-rue-merciere-1.jpg = WebPage\img\lyon-rue-merciere-1.jpg
+		WebPage\img\lyon-rue-merciere-2.jpg = WebPage\img\lyon-rue-merciere-2.jpg
 		WebPage\img\Mairie-Villeurbanne.jpg = WebPage\img\Mairie-Villeurbanne.jpg
+		WebPage\img\parc-de-la-tete-d-or.jpg = WebPage\img\parc-de-la-tete-d-or.jpg
+		WebPage\img\quai-de-saone-architecture.jpg = WebPage\img\quai-de-saone-architecture.jpg
+		WebPage\img\quai-du-rhone-lyon.jpg = WebPage\img\quai-du-rhone-lyon.jpg
+		WebPage\img\quai-saone-lyon.jpg = WebPage\img\quai-saone-lyon.jpg
+		WebPage\img\quais-du-rhone-nuit.jpg = WebPage\img\quais-du-rhone-nuit.jpg
 		WebPage\img\restaurant-cheznous-plan-situation.jpg = WebPage\img\restaurant-cheznous-plan-situation.jpg
 		WebPage\img\restaurant-cheznous.jpg = WebPage\img\restaurant-cheznous.jpg
+		WebPage\img\vieux-Lyon-1.jpg = WebPage\img\vieux-Lyon-1.jpg
+		WebPage\img\vieux-lyon-3.jpg = WebPage\img\vieux-lyon-3.jpg
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{77E6D61D-1F97-4F5D-8E16-59E208F79C04}"
