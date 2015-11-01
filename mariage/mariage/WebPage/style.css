@@ -48,8 +48,30 @@ p {
     font-weight: bold;
 }
 
+ul.turism {
+    padding-left: 30%;
+}
+
+ul li {
+    text-align: justify;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: AFL Font Pespaye Nonmetric;
+}
+
+p.info {
+    font-family: AFL Font Pespaye Nonmetric;
+    font-size: 1em;
+}
+
 .text-bleu {
     color: rgb(81, 167, 249);
+}
+
+#video-lyon {
+    width: 640px;
+    height: 385px;
+    text-align: center;
 }
 
 .border-bleu {

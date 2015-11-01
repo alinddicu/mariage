@@ -6,6 +6,7 @@ alindicu.MainViewModel = function () {
     self.heureMairie = '10h50';
     self.heureEglise = '13h (*)';
     self.heureRestaurant = '18h (*)';
+    self.lang = ko.observable('ro');
     
     var frMariageData = new alindicu.MariageViewModel(
         ' et ',
@@ -67,12 +68,13 @@ alindicu.MainViewModel = function () {
 
     self.mariage = ko.observable(roMariageData);
 
-    self.switchLang = function(lang) {
-        if (lang == 'fr') {
+    self.switchLang = function (lang) {
+        self.lang(lang);
+        if (self.lang() == 'fr') {
             self.mariage(frMariageData);
         }
 
-        if (lang == 'ro') {
+        if (self.lang() == 'ro') {
             self.mariage(roMariageData);
         }
     };
