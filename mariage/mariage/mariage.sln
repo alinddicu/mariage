@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebPage", "WebPage", "{5B395D9A-77C8-474F-B768-6C9E1F6B42C5}"
 	ProjectSection(SolutionItems) = preProject
@@ -20,7 +20,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{42CC9E3C-699
 		WebPage\img\alliances.jpg = WebPage\img\alliances.jpg
 		WebPage\img\drapeau-fr.png = WebPage\img\drapeau-fr.png
 		WebPage\img\drapeau-ro.png = WebPage\img\drapeau-ro.png
-		WebPage\img\eglise-Caluire-et-Cuire_Saint_Come.jpg = WebPage\img\eglise-Caluire-et-Cuire_Saint_Come.jpg
 		WebPage\img\homme-femme.png = WebPage\img\homme-femme.png
 		WebPage\img\Jardins-du-parc-de-la-Tete-d-Or.jpg = WebPage\img\Jardins-du-parc-de-la-Tete-d-Or.jpg
 		WebPage\img\lyon-rue-merciere-1.jpg = WebPage\img\lyon-rue-merciere-1.jpg

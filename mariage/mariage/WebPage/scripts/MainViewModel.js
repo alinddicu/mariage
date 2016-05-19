@@ -19,14 +19,14 @@ alindicu.MainViewModel = function () {
         'Mairie de Villeurbanne',
         '3, Place du Dr Lazare Goujon, 69100 Villeurbanne',
         'Parkings payants',
-        '17 rue Michel Servet (air libre)',
-        '38 bis rue Michel Servet (couvert)',
+        '17, rue Michel Servet (air libre), Villeurbanne',
+        '38, bis rue Michel Servet (couvert), Villeurbanne',
         'A l\'église',
         '2 Juillet 2016',
         'La cérémonie se tiendra ',
         ' à',
-        'l\'Eglise Saint Côme Saint Damien',
-        '53, chemin de Fond Rose, Caluire et Cuire, 69300',
+        'l\'Eglise Orthodoxe Grecque',
+        '45, Rue Père Chevrier, 69007 Lyon',
         'Parking gratuit : dans la cour de l\'église',
         'Au restaurant',
         '2 Juillet 2016',
@@ -48,14 +48,14 @@ alindicu.MainViewModel = function () {
         'Primaria Villeurbanne',
         '3, Place du Dr Lazare Goujon, 69100 Villeurbanne',
         'Parcare cu plata',
-        '17 rue Michel Servet (aer liber)',
-        '38 bis rue Michel Servet (acoperit)',
+        '17, rue Michel Servet (aer liber), Villeurbanne',
+        '38, bis rue Michel Servet (acoperit), Villeurbanne',
         'La biserica',
         '2 Iulie 2016',
         'Ceremonia se va tine la ora ',
         ' la',
-        'Biserica Saint Côme Saint Damien',
-        '53, chemin de Fond Rose, Caluire et Cuire, 69300',
+        'Biserica ortodoxa greaca',
+        '45, Rue Père Chevrier, 69007 Lyon',
         'Parcare gratuita : in curtea bisericii',
         'La restaurant',
         '2 Iulie 2016',
@@ -80,5 +80,5 @@ alindicu.MainViewModel = function () {
     };
 
     new alindicu.GoogleMap('map-mairie', 45.766450, 4.879592);
-    new alindicu.GoogleMap('map-eglise', 45.791826, 4.824995);
+    new alindicu.GoogleMap('map-eglise', 45.747963, 4.84598260000007);
 };
