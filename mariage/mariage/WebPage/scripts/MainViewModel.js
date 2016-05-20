@@ -4,7 +4,7 @@ alindicu.MainViewModel = function () {
     var self = this;
 
     self.heureMairie = '10h50';
-    self.heureEglise = '13h (*)';
+    self.heureEglise = '14h (*)';
     self.heureRestaurant = '18h (*)';
     self.lang = ko.observable('ro');
     
