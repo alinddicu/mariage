@@ -3,9 +3,9 @@
 alindicu.MainViewModel = function () {
     var self = this;
 
-    self.heureMairie = '10h50';
-    self.heureEglise = '14h (*)';
-    self.heureRestaurant = '18h (*)';
+    self.heureMairie = '10h45';
+    self.heureEglise = '14hH30';
+    self.heureRestaurant = '18h30';
     self.lang = ko.observable('ro');
     
     var frMariageData = new alindicu.MariageViewModel(
@@ -30,7 +30,7 @@ alindicu.MainViewModel = function () {
         'Parking gratuit : dans la cour de l\'église',
         'Au restaurant',
         '2 Juillet 2016',
-        'Nous allons faire la fête ',
+        'Nous allons faire la fête à ',
         ' au',
         'Restaurant  "Chez nous"',
         'Route  Départementale  D61  (01)  Ain, Sainte Croix, 01120',
@@ -64,7 +64,7 @@ alindicu.MainViewModel = function () {
         'Restaurantul  "Chez nous"',
         'Judeteana  D61  (01)  Ain, Sainte Croix, 01120',
         'Parcare gratuita : in fata restaurantului',
-        '(*) Orele sunt aproximative si vor fi fixate in curand');
+        '');
 
     self.mariage = ko.observable(roMariageData);
 
