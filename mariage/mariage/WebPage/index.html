@@ -18,7 +18,7 @@
             <h1 class="text-orange" data-bind="text : mariage().date"></h1>
             <h1 class="text-orange" data-bind="text : mariage().lieu"></h1>
         </div>
-        <div class="section border-bleu">
+        <div class="section border-bleu" data-bind="visible: false">
             <h1 class="text-bleu" data-bind="text : mariage().aLaMairie"></h1>
             <h1 class="text-bleu" data-bind="text : mariage().dateMairie"></h1>
             <p><span data-bind="text : mariage().ceremonieALaMairie"></span><span data-bind="text : heureMairie"></span><span data-bind="text : mariage().ceremonieMairieALaMairie"></span></p>
@@ -34,7 +34,7 @@
             <h1 class="text-vert" data-bind="text : mariage().dateEglise"></h1>
             <p><span data-bind="text : mariage().ceremonieALEglise"></span><span data-bind="text : heureEglise"></span><span data-bind="text : mariage().ceremonieALEgliseALEglise"></span></p>
             <p data-bind="text : mariage().egliseLabel"></p>
-            <p><a href="http://www.paroisse-saints-come-damien-caluire.fr/"><img class="border-radius" src="img/eglise-orthodoxe-grecque.jpg" /></a></p>
+            <p><img class="border-radius" src="img/eglise-orthodoxe-grecque.jpg" /></p>
             <p data-bind="text : mariage().adresseEglise"></p>
             <div id="map-eglise" class="google-map"></div>
             <p class="gps">GPS : Nord 45° 44' 52,6"   Est 4° 50' 45,5"</p>
@@ -51,7 +51,7 @@
             <p class="gps">GPS : Nord 45° 53' 41.23"    Est 5° 3' 12.67"</p>
             <p data-bind="text : mariage().parkingRestaurant"></p>
         </div>
-        <div class="section border-gris">
+        <div class="section border-gris" data-bind="visible: false">
             <p data-bind="text : mariage().disclaimerMajHeures"></p>
         </div>
         <div class="section border-vert" data-bind="visible : lang() == 'ro'">
